@@ -7,4 +7,50 @@ main {
   font-family: "Open Sans", sans-serif;
 }
 aside {
+  width: 100%;
+  max-width: 500px;
+  padding: 65px;
+  background-color: #2b5a84;
+  color: #fff;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+.user-img {
+  max-width: 100%;
+  margin-bottom: 35px;
+}
+.user-name {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.user-work {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+.aside-item {
+  display: flex;
+  align-items: center;
+}
+.aside-item {
+  display: flex;
+}
+.aside-item-title {
+  display: block;
+}
+.aside-item img {
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+  fill: #fff;
 }
