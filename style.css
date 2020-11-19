@@ -45,12 +45,18 @@ aside {
 .aside-item {
   display: flex;
 }
-.aside-item-title {
-  display: block;
-}
-.aside-item img {
+
+svg {
   width: 45px;
   height: 45px;
   margin-right: 15px;
-  fill: #fff;
+  fill: #fff !important;
+  border-radius: 0;
+}
+.aside-item-title {
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+.aside-item-text {
+  padding-left: 60px;
 }
