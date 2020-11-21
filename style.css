@@ -13,6 +13,11 @@ aside {
   background-color: #2b5a84;
   color: #fff;
 }
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .user {
   display: flex;
   flex-direction: column;
@@ -21,16 +26,14 @@ aside {
 .user img {
   border-radius: 50%;
   overflow: hidden;
-  width: 200px;
-  height: 200px;
-}
-.user-img {
-  max-width: 100%;
+  width: 210px;
+  height: 210px;
   margin-bottom: 35px;
 }
+
 .user-name {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 15px;
 }
 .user-work {
@@ -38,13 +41,13 @@ aside {
   font-size: 20px;
   margin-bottom: 80px;
 }
+
 .aside-item {
   display: flex;
-  align-items: center;
-}
-.aside-item {
-  display: flex;
-  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 35px;
+  width: 430px;
 }
 
 svg {
@@ -59,4 +62,93 @@ svg {
   margin-bottom: 35px;
 }
 .aside-item-text {
+  margin-left: 65px;
+  text-align: justify;
+}
+.aside-subitem {
+  margin-bottom: 45px;
+}
+.aside-subitem .aside-subitem-title {
+  display: block;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  padding-left: 25px;
+  text-align: left;
+}
+
+.aside-list-item {
+  margin-bottom: 15px;
+}
+.aside__interests {
+  display: flex;
+  align-items: center;
+}
+
+.aside-interests-column {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-right: 25px;
+}
+.aside__interest-item {
+  display: flex;
+  margin: 15px 30px 15px 0;
+  flex-direction: row;
+  align-items: center;
+}
+.aside-item-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.aside-my-contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 65px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+main {
+  width: 750px;
+  padding: 25px;
+  background-color: rgb(221, 225, 255);
+  border-right: 1px solid rgb(218, 230, 253);
+}
+.main-item {
+  margin-bottom: 45px;
+}
+.main-item-title {
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+.main-item-body {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.maim-item-row {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.main-row-key {
+  width: 200px;
+  margin-right: 30px;
+  vertical-align: top;
+  margin-top: 0;
+}
+.main-row-val {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+.main-row-val p {
+  margin: 0;
 }
