@@ -16,6 +16,7 @@ aside {
 body {
   display: flex;
   flex-direction: row;
+  width: 100%;
   justify-content: center;
 }
 .user {
@@ -136,11 +137,11 @@ main {
   display: flex;
   flex-direction: row;
   text-align: left;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
 }
 p {
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
 }
 .main-row-key {
   display: flex;
@@ -152,12 +153,11 @@ p {
 .main-row-val {
   display: flex;
   align-items: left;
-  width: 350px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 0;
-  align-items: center;
-  text-align: center;
+  margin: 0 30px 0 0;
+  align-items: left;
 }
 .main-row-val a {
   text-decoration: none;
