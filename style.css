@@ -87,7 +87,7 @@ svg {
 .aside-interests-column {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   margin-right: 25px;
 }
 .aside__interest-item {
