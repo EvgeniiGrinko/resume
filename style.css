@@ -16,7 +16,7 @@ aside {
 body {
   display: flex;
   flex-direction: row;
-
+  padding: 0 200px 0 200px;
   justify-content: center;
   align-items: top;
 }
@@ -175,12 +175,12 @@ p {
   margin-bottom: 35px;
 }
 .skills-item-key {
-  width: 150px;
+  width: 100px;
   margin-right: 20px;
 }
 .skills-line {
   height: 15px;
-  width: 300px;
+  width: 200px;
   background-color: lightgray;
   border-radius: 6px;
   position: relative;
