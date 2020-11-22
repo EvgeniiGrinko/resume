@@ -64,15 +64,15 @@ svg {
   margin-bottom: 35px;
 }
 .aside-item-text {
-  margin-left: 65px;
   text-align: justify;
 }
 .aside-subitem {
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 .aside-subitem .aside-subitem-title {
   display: block;
-  margin-bottom: 25px;
+  margin-top: 5px;
+  margin-bottom: 15px;
   text-transform: uppercase;
   padding-left: 25px;
   text-align: left;
@@ -105,7 +105,10 @@ svg {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 0 15px 65px;
+  margin: 0 0 30px 0;
+}
+.aside-my-contacts p {
+  margin: 0;
 }
 .socials__list-items {
   display: flex;
@@ -122,11 +125,11 @@ main {
   border-right: 1px solid rgb(218, 230, 253);
 }
 .main-item {
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 .main-item-title {
   font-size: 30px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 .main-item-body {
   display: flex;
@@ -141,10 +144,7 @@ main {
   text-align: left;
   margin-bottom: 45px;
 }
-p {
-  padding: 0;
-  margin: 0 0 20px 0;
-}
+
 .main-row-key {
   display: flex;
   align-items: center;
