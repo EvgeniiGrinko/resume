@@ -31,7 +31,6 @@ body {
   height: 210px;
   margin-bottom: 35px;
 }
-
 .user-name {
   text-transform: uppercase;
   font-size: 35px;
@@ -42,7 +41,6 @@ body {
   font-size: 20px;
   margin-bottom: 80px;
 }
-
 .aside-item {
   display: flex;
   flex-direction: column;
@@ -50,7 +48,6 @@ body {
   margin-bottom: 35px;
   width: 430px;
 }
-
 svg {
   width: 45px;
   height: 45px;
@@ -59,6 +56,9 @@ svg {
   fill: #fff;
 }
 .aside-item-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   font-size: 25px;
   margin-bottom: 35px;
 }
@@ -76,7 +76,6 @@ svg {
   padding-left: 25px;
   text-align: left;
 }
-
 .aside-list-item {
   margin-bottom: 15px;
 }
@@ -84,7 +83,6 @@ svg {
   display: flex;
   align-items: center;
 }
-
 .aside-interests-column {
   display: flex;
   flex-direction: column;
@@ -106,8 +104,7 @@ svg {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 20px;
-  margin-left: 65px;
+  margin: 0 0 35px 65px;
 }
 a {
   text-decoration: none;
@@ -141,7 +138,7 @@ main {
 }
 p {
   padding: 0;
-  margin: 0 0 40px 0;
+  margin: 0;
 }
 .main-row-key {
   display: flex;
