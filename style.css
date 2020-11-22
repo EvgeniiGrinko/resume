@@ -7,7 +7,6 @@ main {
   font-family: "Open Sans", sans-serif;
 }
 aside {
-  width: 100%;
   max-width: 300px;
   padding: 65px;
   background-color: #2b5a84;
@@ -17,7 +16,7 @@ aside {
 body {
   display: flex;
   flex-direction: row;
-  width: 100%;
+
   justify-content: center;
   align-items: top;
 }
@@ -48,7 +47,6 @@ body {
   flex-direction: column;
   text-align: left;
   margin-bottom: 35px;
-  width: 100%;
 }
 svg {
   display: block;
@@ -150,14 +148,14 @@ p {
 .main-row-key {
   display: flex;
   align-items: center;
-  width: 200px;
+  width: 100px;
   margin-right: 30px;
   margin-top: 0;
 }
 .main-row-val {
   display: flex;
   align-items: left;
-  width: 100%;
+  width: 300px;
   display: flex;
   flex-direction: column;
   margin: 0 30px 0 0;
